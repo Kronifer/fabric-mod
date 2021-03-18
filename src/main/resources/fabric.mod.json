@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "extrabuildingblocks",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Extra Building Blocks",
+  "description": "Adds vanilla-like building blocks to Minecraft.",
   "authors": [
-    "Me!"
+    "Dillon Runke"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/kronifer",
+    "sources": ""
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/extrabuildingblocks/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "kronifer.extra.blocks.ExtraBuildingBlocks"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "extrabuildingblocks.mixins.json"
   ],
 
   "depends": {
